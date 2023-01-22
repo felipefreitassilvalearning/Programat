@@ -1,0 +1,86 @@
+Origem do Python:
+Foi criada em 1991 por Guido van Rossum, com o intuito de simplificar os códigos que, à época, eram escritos majoritariamente em "C" - uma das primeiras linguagens de prorgamação de sintaxe notavelmente grande e complexa. O nome Python, ao contrário do que muitos acreditam, não vem da espécie de cobra de mesmo nome, embora tenha se popularizado devido à essa associação, e sim da série favorita de seu criador: "Monty Python"
+
+
+Vantagens da linguagem:
+É uma linguagem muito simples, compacta, e que requer organização para funcionar. Além disso, ela é de fácil leitura e extremamente abrangente, podendo ser utilizada para criar desde o mais simples site até um sistema complexo como o Youtube. É isso mesmo, e não apenas o Youtube...
+
+
+Projetos que utilizam Python:
+
+De jogos simples e contas matemáticas básicas à aprendizado de máquina e criação de inteligências artificiais.
+Algumas das empresas que utilizam a linguagem como base são a Google, o Youtube e a Globo.
+
+
+Comandos da linguagem:
+
+Em python, temos como principais tipos primitivos "string", "int", "float" e "bool".
+
+Mas, o que são e para que srvem?
+Tipos primitivos são a maneira de categorizarmos um dado quanto a sua forma, mas vamos ver cada um conforme avançamos, então não se preocupe em decorar teoria.
+
+str (String) - é qualquer caractér posto entre aspas (simples ou duplas)
+Ex: Em ordem, o caractér C, uma frase, o número 4,6 - que segue, por convenção, a notação americana (com ponto no lugar da vírgula) - e um espaço vazio. Todos são strings.
+
+0) 'C'
+1) 'Isso é uma string'
+2) '4.6'
+3) ''
+
+int - é um número inteiro, qualquer combinação dos 10 digitos que temos, enquanto não contiver vírgula, será do tipo int
+Ex: (O número três, o número menos oito, o numeral zero e o número quatro mil oitocentos e cinquenta e seis). Todos inteiros, sejam nulos, negativos ou neutro.
+3
+-8
+0
+4856
+
+float - é um número que contém vírugla (do inglês, 'ponto flutuante'). TODOS os números podem ser  escritos nesse formato, contato que possuam o ponto flutuante.
+Ex: (O número seis vírgula sete, o número zero vírgula zero treze, o número negativo oito vírgula oito, o número 3* e o numeral grego infinito, pi). Todos com o ponto, sendo dizimas periódicas, números irracionais, frações, etc.
+*perceba que, na matemática, em valor, os números "3" e "3.0" são iguais, mas no que diz respeito à forma, distinguem-se. 
+6.7
+0.013
+-8.8
+3.0
+pi (3.14159...)
+
+bool - "booleano" é um estado binário, ou seja, que possui apenas duas fases:
+Ligado(On) ou Desligado(Off), vivo ou morto, sim e não, 0 ou 1, verdadeiro ou falso.
+Em python, representamos algo binário pelas palavras em inglês "True" (Verdadeiro) e "False" (Falso) - com a inicial maiúscula.
+
+Temos também comandos essenciais, como os para entrada de dados e amostragem de dados na tela, como o "print" e o "input".
+
+Print - instrução que faz algo aparecer na tela. Imprime qualquer dado, variavel, e até mesmo função para seu usuário.
+Atenção: O comando print, na versão 3.0, foi atualizado, e possui uma maneira mais atual de formatação.
+Formato antigo: print("String e",variavel,"utilizadas",do,"jeito antigo")
+Formato novo: print("String e {} utilizadas {} jeito antigo".format{variavel, do})
+Input - recebe um dado do usuário, qualquer dado, mas por padrão é interpretado como string.
+
+Além destes, temos uma infinidade de outros comandos e funções
+
+Um 'estilo' de comando muito útil e comum nas diversas linguagens de programação são os chamados 'loops', ou laços de repetição. Os mais comuns são o 'for' e o 'while'
+Eles são utilizados, por exemplo, para percorrer os elementos de uma lista ou então executar uma mesma ação até que uma determinada condição seja atingida.
+
+Além dos laços de repetição, o comando provavelmente mais estereotipado e lembrado de qualquer linguagem de programação são as condicionais, o tal do "se", "senão".
+São utilizados em todo tipo de programa, desde a identificação da paridade de um número até a criação de inteligências artificiais complexas. Ex:
+if:
+	condicao
+else:
+	outra condicao
+
+Os operadores matemáticos, na programação, são escritos de maneira um pouco diferente, com a excessão dos sinais de adição e subtração, que se mantém iguais.
+Temos então:
+Adição = "+" (mais)
+Subtração = "-" (hífen)
+Multiplicação = "*" (asterísco)
+Para a divisão, temos 3 sinais; a divisão parcial, apenas a parte inteira da divisão, sem o resto; a divisão completa, que dará um resultado com vírgula, caso possível e necessário; e o que chamamos de 'módulo', que equivale ao resto da divisão.
+
+Parcial = "//" (duas barras simples)
+Completa = "/" (barra simples)
+Módulo = "%" (percentagem)
+
+Além destes, temos o sinal de exponenciação, que é representado por 2 asteríscos ("**"). Vale atentar que não temos sinal nativo de raíz quadrada, então temos que utilizar a regra matemática que um número elevado à uma divisão resultara em uma raíz.
+
+A ordem de expressão é a mesma da matemática:
+Primeiramenet os parenteses (), depois a exponenciação **, depois a multiplicação e divisão e, por último, adição e subtração.
+
+Quer ter certeza de que entendeu? Vá para a sessão de exercícios e pratique, pois somente assim que se aprende!

@@ -1,0 +1,143 @@
+​Origem do Java Script:
+Foi criada em 1991 por Guido van Rossum, com o intuito de simplificar os códigos que, à época, eram escritos majoritariamente em "C" - uma das primeiras linguagens de prorgamação de sintaxe notavelmente grande e complexa. O nome Python, ao contrário do que muitos acreditam, não vem da espécie de cobra de mesmo nome, embora tenha se popularizado devido à essa associação, e sim da série favorita de seu criador: "Monty Python"
+
+
+Vantagens da linguagem:
+É uma linguagem poderosíssima, . Além disso, ela é de fácil leitura e extremamente abrangente, podendo ser utilizada para criar desde o mais simples site até um sistema complexo como o Youtube. É isso mesmo, e não apenas o Youtube...
+
+
+Projetos que utilizam JS:
+
+De jogos simples e contas matemáticas básicas à aprendizado de máquina e criação de inteligências artificiais.
+Algumas das empresas que utilizam a linguagem como base são a Google, o Youtube e a Globo.
+
+
+
+
+Em Java Script, assim como em algumas outras linguagens, existem quatro maneiras de categorizarmos um dado: ele pode ser uma "string"(str), ou seja, uma cadeia de caractéres, sempre estando entre aspas (""); pode ser um "integer"(int), um número inteiro; um "float", número com vírgula, racional, ou irracional; ou ainda "boolean"(bool), um tipo binário que só recebe informações do tipo 'True' (verdadeiro) e 'False' (falso).
+
+​
+
+Alguns exemplos:
+
+
+
+String:
+
+"um", "numero", "4", "8.5", "p", "#".
+
+​
+
+Int:
+
+4, 8, 19, 23
+
+​
+
+Float:
+
+4.0, 8.5, 19.66, 3.1415
+
+​
+
+Bool:
+True, False
+
+
+
+Em todas as linguagens de programação, temos comandos para receber dados do usuário e para exibir dados em sua tela, em Python, estes são o "Input" e o "Print".
+
+​
+
+Print - Intrução que imprime qualquer dado, variável ou constante na tela de seu usuário.
+
+Ex: 
+
+
+
+
+
+
+
+
+
+
+Input - Instrução que recebe qualquer dado de um usuário, mas sempre como uma 'string'.
+
+Ex:
+
+​
+
+​
+
+​
+
+​
+
+​
+
+Além destes, temos uma infinidade de outros comandos e funções, mas dois dos mais famosos e utilizados são os 'loops' ('laços de repetição', em português) e as condicionais.
+
+Os loops são utilizados, muitas vezes em conjunto com as condicionais. Esse é o caso, por exemplo, quando deve se descobrir a primalidade de um número. Mesmo separados, são muito úteis, como podemos ver nos exemplos abaixo:
+
+​
+
+                        A esquerda, temos um "while loop", que realiza uma deter-
+
+                         minada ação enquanto uma condição for verdadeira, no
+
+                         caso: temos que i é igual a zero e, enquanto ele for menor
+
+                         do que dez, irá aumentar em um e, em seguida, mostrar o
+
+                         número na tela.
+
+                          A direita, temos dois números (3 e 4, x e y) e tres condi-
+
+                         ções, 'if', 'elif' e 'else', que comparam x e y e mostram na
+
+                         tela a relação entre x e y.
+
+                         Mas por que esses dois comandos funcionam e porque
+
+                         estão estruturados nessa ordem? Entenda clicando
+
+                         onde terá um vídeo com explicações mais aprofundadas.
+
+
+
+Os operadores matemáticos, na programação, são escritos de maneira um pouco diferente, com a excessão dos sinais de adição e subtração, que se mantém iguais.
+Temos então:
+Adição --> + (mais)
+Subtração --> - (menos)
+Multiplicação = * (asterísco)
+Para a divisão, temos 3 sinais; a divisão parcial, apenas a parte inteira da divisão; a divisão completa, que dará um resultado com vírgula, caso possível e necessário; e o que chamamos de 'módulo', que equivale ao resto da divisão.
+​
+
+​
+
+​
+
+Completa = "/" (barra simples)
+Módulo = "%" (percentagem)
+
+​
+
+​
+
+​
+
+Além destes, temos o sinal de exponenciação, que é representado por 2 asteríscos **. Vale atentar que não temos um sinal para raíz quadrada, então temos que utilizar a regra matemática que diz que um número elevado à uma divisão resultara em uma raíz.
+
+​
+
+A ordem de expressão, por outro lado, é a mesma da matemática:
+Primeiramente os parenteses (), depois a exponenciação, depois a multiplicação e a divisão e, por último, adição e subtração.
+
+​
+
+Quer ter certeza de que entendeu? Vá para a sessão de exercícios e pratique, pois somente assim que se aprende!
+
+
+
+​
